@@ -1,0 +1,11 @@
+Create Virtual Env -- python -m venv project_venv
+activate virtual -- venv/scripts/activate.bat
+deactivate -- deactivate
+use global packages to venv -- python -m venv venv --system-site-packages
+
+pip list used for list the packages
+pip freeze used list the packages installed with version
+pip install -r requirements.txt
+rmdir venv /s used for remove dir
+mkdir used for make dir
+pip list --local used for list the dir in current env
